@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    display: 0;
+}
+
+body { 
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #d53568, #d65562, #d65d61, #d88d57, #daad51);
+    color: #ffffff;
+    height: auto;
+    
+}
+
+.navbar {
+    padding: 2% 0 0 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom:1px solid white;
+}
+
+.titulo {
+    flex: 20%;
+    text-align: left;
+    margin-left:5%;
+    margin-bottom: 1%;
+}
+
+.titulo-cabecalho {
+    font-size: 2rem;
+   
+}
+.aviao {
+    width: 20px;
+    margin-right: 2%;
+}
+
+.menu {
+    flex: 70%;
+    padding: 20px;
+    text-align: right;
+    margin-bottom: 1%;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px 16px;
+    margin-right: 2%;
+    color: black;
+}
+
+#link-acao {
+    margin-right: 10%;
+    background-color: #ffffff93;
+    padding: 15px 35px;
+    border-radius: 40px;
+}
+
+#link-acao:hover {
+    background-color: #d65d61;
+    color: black;
+}
+
+.apresentacao {
+    padding: 6% 9%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+
+.Titulo-section {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.Paragrafo-primario {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.Paragrafo-secundario {
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-img {
+    padding: 3%;
+    width: 100%;
+}
+
+.imagem-marketing {
+    width: 100%;
+    border-radius: 15px;
+}
+.botao {
+    color: white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 40px;
+    margin-left: 9%;
+    font-weight: bolder;
+}
+
+.botao:hover {
+    background-color: #daad51;
+}
