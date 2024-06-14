@@ -1,14 +1,12 @@
 * {
     margin: 0;
-    display: 0;
+    padding: 0;
 }
 
 body { 
     box-sizing: border-box;
     background-image: linear-gradient(to right, #d53568, #d65562, #d65d61, #d88d57, #daad51);
     color: #ffffff;
-    height: auto;
-    
 }
 
 .navbar {
@@ -17,7 +15,7 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     height: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-bottom:1px solid white;
