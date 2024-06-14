@@ -1,2 +1,2 @@
-#Landing page
-utilizando HTML e CSS
+**Landing page**
+ - utilizando HTML e CSS
